@@ -13,7 +13,7 @@ public class MoviesApplication {
 		SpringApplication.run(MoviesApplication.class, args);
 	}
 
-	@GetMapping("/root") // GetMapping = GET endpoint
+	@GetMapping("/") // GetMapping = GET endpoint
 	public String apiRoot() {
 		return "Hello World";
 	}
